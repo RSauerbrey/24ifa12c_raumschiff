@@ -37,3 +37,12 @@ void Raumstation::betanken(Raumschiff* r, int inEnergie)
 {
      ships.push_back(r);
 }
+
+void Raumstation::showShips()
+{
+    for(int i = 0; i< ships.size(); i++)
+    {
+        cout << ships[i]->getName() << endl;
+        cout << ships[i]->getEnergie() << endl;
+    }
+}

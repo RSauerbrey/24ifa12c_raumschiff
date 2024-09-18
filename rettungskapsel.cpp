@@ -1,6 +1,16 @@
 #include "rettungskapsel.h"
+#include <iostream>
+using namespace std;
 
-Rettungskapsel::Rettungskapsel() {}
+Rettungskapsel::Rettungskapsel()
+{
+    cout << "Rettungskapsel erzeugt" << endl;
+}
+
+Rettungskapsel::~Rettungskapsel()
+{
+    cout << "Rettungskapsel gekillt" << endl;
+}
 
 void Rettungskapsel::belegungAdd()
 {

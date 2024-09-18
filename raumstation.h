@@ -21,6 +21,7 @@ public:
     string getName(void);
     int getEnergie(void);
     void betanken(Raumschiff* r, int inEnergie);
+    void showShips();
 };
 
 #endif // RAUMSTATION_H

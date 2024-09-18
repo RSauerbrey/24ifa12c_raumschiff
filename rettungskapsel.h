@@ -7,6 +7,7 @@ class Rettungskapsel
     int maxBelegung;
 public:
     Rettungskapsel();
+    ~Rettungskapsel();
     void belegungAdd();
     int getMaxBelegung();
     int getAktuelleBelegung();
