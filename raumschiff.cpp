@@ -25,3 +25,8 @@ int Raumschiff::getEnergie(void)
     return energie;
 }
 
+void Raumschiff::betanken(int inEnergie)
+{
+    //Raumschiff betanken
+    energie = energie + inEnergie;
+}

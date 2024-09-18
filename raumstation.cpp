@@ -1,5 +1,5 @@
 #include "raumstation.h"
-
+#include "raumschiff.h"
 
 Raumstation::Raumstation()
 {
@@ -24,4 +24,16 @@ string Raumstation::getName(void)
 int Raumstation::getEnergie(void)
 {
     return energie;
+}
+
+void Raumstation::betanken(Raumschiff* r, int inEnergie)
+{
+    //Raumschiff betanken
+    r->betanken(inEnergie);
+    energie = energie - inEnergie;
+}
+
+ void Raumstation::setRaumschiff(Raumschiff* r)
+{
+     ships.push_back(r);
 }
