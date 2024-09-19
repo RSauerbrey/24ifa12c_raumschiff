@@ -27,6 +27,8 @@ int main()
 
     s->betanken(r[0], 1000);
 
+
+
     //s->showShips();
 
     //delete r[0];

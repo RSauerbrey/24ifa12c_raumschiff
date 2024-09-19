@@ -8,7 +8,7 @@ Raumschiff::Raumschiff()
 
 Raumschiff::~Raumschiff()
 {
-    delete save;
+
     cout << "Raumschiff " << name << "gekillt" << endl;
 }
 
